@@ -27,7 +27,7 @@ module Bluedart
 
     def request_url
       if @mode == 'prod'
-        'https://netconnect.bluedart.com/Ver1.7/ShippingAPI/Pickup/PickupRegistrationService.svc'
+        'https://netconnect.bluedart.com/Ver1.9/ShippingAPI/PickupRegistrationService.svc'
       else
         'https://netconnect.bluedart.com/Demo/ShippingAPI/Pickup/PickupRegistrationService.svc'
       end
