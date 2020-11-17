@@ -10,7 +10,7 @@ module Bluedart
 
     def request_url
       if @mode == 'prod'
-        'https://netconnect.bluedart.com/Ver1.8/ShippingAPI/WayBill/WayBillGeneration.svc'
+        'https://netconnect.bluedart.com/Ver1.9/ShippingAPI/WayBill/WayBillGeneration.svc'
       else
         'https://netconnect.bluedart.com/Demo/ShippingAPI/WayBill/WayBillGeneration.svc'
       end
